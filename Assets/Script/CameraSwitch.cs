@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraSwitch : MonoBehaviour
 {
-    public Camera Camera1;
-    public Camera Camera2;
+    [SerializeField] private Camera Camera1;
+    [SerializeField] private Camera Camera2;
 
     // Start is called before the first frame update
     void Start()

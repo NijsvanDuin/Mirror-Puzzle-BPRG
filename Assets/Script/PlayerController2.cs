@@ -6,7 +6,8 @@ public class PlayerController2 : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] private Rigidbody playerRb;
-    public CharacterController controller;
+    [SerializeField] private CharacterController controller;
+    public GameManager gameMg;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +19,14 @@ public class PlayerController2 : MonoBehaviour
     {
         Vector3 move = new Vector3(-Input.GetAxis("Horizontal"), 0, -Input.GetAxis("Vertical"));
         controller.Move(move * Time.deltaTime * speed);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Collectible"))
+        {
+            gameMg.collCount += 1;
+            Destroy(other.gameObject);
+        }
     }
 }
