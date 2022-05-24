@@ -710,8 +710,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -135.4, y: -103.5}
-  m_SizeDelta: {x: 160, y: 67.3543}
+  m_AnchoredPosition: {x: -135.4, y: -105.27}
+  m_SizeDelta: {x: 160, y: 95.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &362753450
 MonoBehaviour:
@@ -1101,8 +1101,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.5, y: -170.00395}
-  m_SizeDelta: {x: 484.5238, y: 242.4605}
+  m_AnchoredPosition: {x: -32, y: -196}
+  m_SizeDelta: {x: 506.5195, y: 242.4605}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687535732
 MonoBehaviour:
@@ -1125,12 +1125,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Your objective is to claim all the red metalic balls to save the world
-    form the mirror dimantion!
+    form the mirror dimantion! The Red ball ensures that the dimensions are no longer
+    the same.
 
 
-    You can switch to the mirror dimantion when
-    pressing C. You move around with W,A,S,D. But be carefull, you move at the same
-    time in the mirror dimantion'
+    You can switch to the mirror dimantion when pressing C. You move
+    around with W,A,S,D. But be carefull, you move at the same time in the mirror
+    dimantion!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1376,8 +1377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.5, y: 165.7}
-  m_SizeDelta: {x: 280.9387, y: 51.3386}
+  m_AnchoredPosition: {x: 53.423294, y: 165.7}
+  m_SizeDelta: {x: 374.0708, y: 51.3386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798438854
 MonoBehaviour:
@@ -1426,8 +1427,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1672,7 +1673,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Level 1:
 
-    The Beginning'
+    Dry Desert'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1785,8 +1786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 108.2, y: -103.5}
-  m_SizeDelta: {x: 160, y: 67.3543}
+  m_AnchoredPosition: {x: 108.2, y: -105.26532}
+  m_SizeDelta: {x: 160, y: 95.8099}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130525489
 MonoBehaviour:
@@ -2411,7 +2412,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Level 2:
 
-    a big one'
+    The Mushroom Forest'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
