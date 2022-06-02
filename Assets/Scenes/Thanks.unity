@@ -881,7 +881,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 233, y: -290.4}
+  m_AnchoredPosition: {x: 272, y: -375}
   m_SizeDelta: {x: 275.5492, y: 92.2065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262204193
@@ -1150,7 +1150,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Thank you all so mutch for playing my game. \nIt was a pleasure to create
-    this.\n\nSpecial thanks to:\nShane van der woude - Teacher\n"
+    this.\n\nSpecial thanks to:\nTeacher : Shane van der woude\nPlayTesters:\nDaan
+    van Veldhuijzen\r\nRens Sevink\nHelena Spilker\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1356,7 +1357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -232, y: -290.4}
+  m_AnchoredPosition: {x: -193, y: -375}
   m_SizeDelta: {x: 275.5492, y: 92.2065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893927195
